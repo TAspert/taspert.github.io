@@ -1,0 +1,35 @@
+#buttonscroll {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 60px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #47ab4c; /* Set a background color */
+  color: white; /* Text color */
+  border-radius: 25px; /* Rounded corners */
+  width: 50px;
+  height: 50px;
+}
+
+#buttonscroll::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 25px;
+  color: #fff;
+}
+#buttonscroll:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#buttonscroll:active {
+  background-color: #555;
+}
+#buttonscroll.show {
+  opacity: 1;
+  visibility: visible;
+}

@@ -1,0 +1,64 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+main{
+	padding-top: 1.5rem;
+}
+  .reduce_margin{
+  	margin-left:-25px;
+  	margin-bottom: 0px;
+  }
+
+.overflow{
+max-height: 500px;
+overflow-y:scroll;
+}
+
+.btn-xsm{padding:.15rem .15rem;font-size:.7rem;line-height:1;border-radius:.2rem; background-color:#47ab4c;border-color:#47ab4c;color:#000000;}
+
+/*to pisition the line at the middle, make the parent "relative" and the child "absolute (the pseudo element :after is consider as a child I guess)*/
+.titre{
+		margin:0px;
+
+	font-weight: bold;
+	font-size: 14px;
+	color:#47ab4c;
+}
+
+
+.auteur{
+		margin:0px;
+
+		font-size: 13px;
+	color:#000;
+}
+
+.cite{
+	margin:0px;
+			font-size: 13px;
+	font-weight: ;
+
+	color:#000;
+}
+
+.doi{
+	margin:0px;
+			font-size: 12px;
+	font-weight: ;
+
+	color:#;
+}
+
+.abstract{
+	margin:0px;
+			font-size: 12px;
+	font-weight: ;
+
+	color:#;
+}
+
+
+.hrr{
+	display: block;
+	border-top: dashed 2px #47ab4c;
+	width: 100%;
+	height:1px;
+	z-index: -1;}
