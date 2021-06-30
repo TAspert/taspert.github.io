@@ -1,8 +1,0 @@
-/* Move down content because we have a fixed navbar that is 3.5rem tall */
-main{
-	padding-top: 1.5rem;
-}
-
-@media (min-width: 992px){.tab{margin-bottom:20px !important;} }
-@media (max-width: 992px){.col-lg-4{ margin-bottom:40px !important; } .row.tab{text-align:center;} }
-

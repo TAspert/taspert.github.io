@@ -1,0 +1,6 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+main{
+	padding-top: 1.5rem;
+}
+
+@media (min-width: 768px){.hl{border-top: solid 0px #47ab4c !important;}}

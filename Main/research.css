@@ -1,0 +1,34 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+main{
+	padding-top: 1.5rem;
+}
+  .reduce_margin{
+  	margin-left:-25px;
+  	margin-bottom: 0px;
+  }
+
+.overflow{
+max-height: 500px;
+overflow-y:scroll;
+}
+
+
+.btn-xsm{padding:.15rem .15rem;font-size:.7rem;line-height:1;border-radius:.2rem; background-color:#47ab4c;border-color:#47ab4c;color:#000000;}
+
+/*to pisition the line at the middle, make the parent "relative" and the child "absolute (the pseudo element :after is consider as a child I guess)*/
+span.white{
+	background:white; 
+	padding-right: 10px;
+}
+
+h5{position:relative;}
+h5:after{
+	content:""; 
+	display: block;
+	border-top: solid 2px #47ab4c;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	height:1px;
+	z-index: -1;
+}

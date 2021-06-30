@@ -1,0 +1,19 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3rem;
+}
+
+nav>a>img.img-fluid{
+  max-height:30px;
+}
+
+ .vr{
+  	border: solid 1px grey;
+  	height:30px;
+
+  	padding-right: 1px;
+  }
+
+  .reduce_padding{
+    padding: 0px;
+  }
