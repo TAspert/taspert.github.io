@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 
-Sitemap: https://charvin.igbmc.science/sitemap.xml
+Sitemap: https://taspert.github.io/sitemap.xml
