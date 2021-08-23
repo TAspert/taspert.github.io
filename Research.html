@@ -10,7 +10,7 @@
   <link rel="icon" href="logo.jpg">
   <!-- ligne pour icon -->
 
-  <title>The Charvin Lab - Research</title>
+  <title>Théo ASPERT - Research</title>
 
   <!-- Bootstrap core CSS -->
   <link href="Main/bootstrap.css" rel="stylesheet">
@@ -70,38 +70,37 @@
 
         <div class="row">
           <div class="col-md">
-            <h4 >Charvin Lab research </h4>
+            <h4 >My research </h4>
           </div>
         </div>
         <hr>
 
         <div class="row mt-3 text-center">
-          <div class="col-md-6 ">
-            <a href=#projet1>
-              <img src="Research/aging-trapv2.png" class="h100 rounded">
-            <p class="small">Dynamics and mechanism of entry into replicative senescence in yeast</p></a>
-
-          </div>
+          <div class="col-md-6 text-center">
+            <a href=#projet2>
+              <img src="Research/stress.png" class="h100">
+              <p class="small">Automated longitudinal analysis of single-cell dynamics</p></a>
+            </div>
 
             <div class="col-md-6 text-center">
-              <a href=#projet2>
-                <img src="Research/stress.png" class="h100">
-                <p class="small">Quantitative Signaling during the response to oxidative stress</p></a>
-            </div>
-        </div>
-
-        <div class="row mt-3 text-center">
-              <div class="col-md-6 text-center">
-                <a href=#projet3>
-              <img src="Research/autocad.png" class="h100">
-              <p class="small">Development of microfluidic devices for single cell dynamics</p></a>
-              </div>
-
-              <div class="col-md-6 text-center">
-                <a href=#projet4><img src="Research/quiescence.png" class="h100 rounded">
-                <p class="small">Dynamics of response to starvation</p></a>
+              <a href=#projet3>
+                <img src="Research/autocad.png" class="h100">
+                <p class="small">Development of microfluidic devices for single cell dynamics</p></a>
               </div>
             </div>
+
+
+            <div class="row mt-3 text-center">
+              <div class="col-md-6 ">
+                <a href=#projet1>
+                  <img src="Research/aging-trapv2.png" class="h100 rounded">
+                  <p class="small">Dynamics and mechanism of entry into replicative senescence in yeast</p></a>
+                </div>
+                <div class="col-md-6 text-center">
+                  <a href=#projet4><img src="Research/quiescence.png" class="h100 rounded">
+                    <p class="small">Dynamics of response to starvation</p></a>
+                  </div>
+                </div>
 
 
                 <div class="row">
@@ -116,6 +115,40 @@
 
                 </div>
               </div>
+
+                          <!-- PROJECT3 -->
+            <div class="row">
+              <div class="col-md">
+                <a class="anchor" id="projet3"></a>
+                <h5> <span class="white">Development of microfluidic devices for single cell dynamics assays </span> </h5>
+                <p class="text-justify"> Our research greatly rely on the development of custom-made microfluidic devices to monitor the growth of individual cells over multi-generation timescales. We are currently developing microfluidic devices to improve the acquisition of data during the entry into replicative senescence or response to stress and to combine live cell imaging data with complementary biochemical analyses of the response to oxidative stress. 
+
+                For that, I have set up a clean room that allowed me to perform the standard SU8-based photolithography processes in order to generate microfluidic prototypes. </p>
+                <div class="text-center">
+                  <img src="Research/project3a.png" class="maxheight300">
+                  <p class="small">Schematic of one microfluidic device setup used in the lab</p>
+                </div>
+
+              </div>
+            </div>
+
+
+            <!-- PROJECT2 -->
+            <div class="row mt-3">
+              <div class="col-md">
+                <a class="anchor" id="projet2"></a>
+                <h5> <span class="white">Automated longitudinal analysis of single-cell dynamics</span> </h5>
+                <p class="text-justify"> A typical microfluidics timelapse experiment allows to monitor 400 000 cell divisions. The manual analysis of this extensive quantity of data is tedious and time-consuming. Therefore, we developped and trained deep-learning based networks along with a softare, Shallow, to automate and parallelize the detection of cell divisions, the volume and the fluorescence of single cells.</p>
+                  <div class="text-center">
+                    <img src="Research/project2a.png" class="img-fluid maxheight300">
+                    <p class="small">xx</p>
+                  </div> 
+<p class="text-justify">
+                  xxx
+                
+              </div>
+            </div>
+
               <!-- PROJECT1 -->
               <div class="row mt-3">
                 <div class="col-md">
@@ -142,45 +175,20 @@
               </div>
             </div>
 
-            <!-- PROJECT2 -->
-            <div class="row mt-3">
-              <div class="col-md">
-                <a class="anchor" id="projet2"></a>
-                <h5> <span class="white">Quantitative Signaling during the response to oxidative stress </span> </h5>
-                <p class="text-justify"> Unicellular organisms have evolved exquisite defense mechanisms to buffer against variations in internal physiological parameters or to counteract unpredictable environmental changes. The response of oxidative stress (e.g. hydrogen peroxide) is a fundamental and highly conserved regulatory system that allows the cell to ensure a precise redox balance, which is essential for proper physiological function. Yet, although the molecular players involved in the response are well characterized at the biochemical level, how these components integrate into a functional homeostatic system remains quite obscure. </p>
-                  <div class="text-center">
-                    <img src="Research/project2a.png" class="img-fluid maxheight300">
-                    <p class="small">Sequence of phase-contrast and fluorescence images of cells at the indicated time points after addition of 0.4 mM H2O2 at t = 300 min. The red and green channels represent the Htb2-mCherry (nuclear marker) and Yap1-GFP (transcription factor of the oxidative stress response) signals, respectively. Orange and white lines represent the cellular and nuclear contours obtained after automated segmentation. The white bars represent 5 µm.</p>
-                  </div> 
-<p class="text-justify">
-                  In this context, we have developed a microfluidic platform to monitor the physiological response of individual cells to various temporal stress patterns (i.e. steps, ramps, etc.) and we have deciphered the functional properties of the redox homeostatic system. We have shown that cell survival is highly stress-rate dependent: all cells consistently die when abruptly exposed to a given dose of hydrogen peroxide, yet can survive 10-fold higher doses when progressively exposed to the same stressor. This observation revealed that adaptation is limited by the response time of the homeostatic machinery, and unraveled an unprecedented ‘trainability’ of the cells to stress. We demonstrated that this particular feature, as well as the long described acquisition of tolerance, are mediated by key H2O2 scavenging enzymes called peroxiredoxins.  
-
-                Following on this functional characterization of the response to oxidative stress, we are now trying to understand how cell reallocate their resources from cell growth to H2O2 scavenging when facing an oxidative stress challenge, knowing that some metabolites (e.g. NADPH) are involved in both anabolic processes and redox control. Also, we are currently transposing the framework developed in yeast to <i>C. elegans</i>.</p>
-                
-              </div>
-            </div>
-
-            <!-- PROJECT3 -->
-            <div class="row">
-              <div class="col-md">
-                <a class="anchor" id="projet3"></a>
-                <h5> <span class="white">Development of microfluidic devices for single cell dynamics assays </span> </h5>
-                <p class="text-justify"> Our research greatly rely on the development of custom-made microfluidic devices to monitor the growth of individual cells over multi-generation timescales. We are currently developing microfluidic devices to improve the acquisition of data during the entry into replicative senescence and to combine live cell imaging data with complementary biochemical analyses of the response to oxidative stress. 
-
-                We have set up a clean room that allows us to perform the standard SU8-based photolithography processes in order to generate microfluidic prototypes. </p>
-                <div class="text-center">
-                  <img src="Research/project3a.png" class="maxheight300">
-                  <p class="small">Schematic of one microfluidic device setup used in the lab</p>
-                </div>
-
-              </div>
-            </div>
             <!-- PROJECT4 -->
             <div class="row mt-3">
               <div class="col-md">
                 <a class="anchor" id="projet4"></a>
                 <h5> <span class="white">Dynamics of response to starvation</span> </h5>
-                <p class="text-justify"> Coming soon...</p>
+                <p class="text-justify"> Quiescence is a highly conserved phenomenon of living organisms. This defense mechanism allows unicellulars to survive over long time scales under unfavorable conditions. However, the mechanisms allowing the transition between proliferative state and quiescence are still poorly understood, in part because they have not been studied under physiologically relevant conditions. In the case of microorganisms, indeed, this requires observing the cells under unperturbed conditions as they progressively modify their growth environment.  The second difficulty is that quiescence is systematically associated with a high degree of cellular heterogeneity, the emergence dynamics of which is unknown, making the analysis very complex.  
+
+                  Our study overcomes these barriers by proposing a new methodology based on microfluidics that allows us to observe the metabolic transitions in individual cells from fermentation to stationary phase in real-time. This technique offers a combined approach that respects the temporality of medium changes dictated by population growth while allowing single-cell level observations. 
+                </p>
+                <img src="Research/project1d.png" class="img-fluid max-height300">
+                <p class="small">xxx</p>
+
+                <p> Indeed,  we  developed  an  integrated  microfluidic  device  based  on  continuous  separation  of  the  cells  from the media (~5.10^5 cells/μL) and subsequent perfusion of the filtrated media in an observation chamber containing isolated single-cells.
+                </p>
               </div>
             </div>
           </div>

@@ -22,6 +22,15 @@ overflow-y:scroll;
 	font-size: 14px;
 	color:#47ab4c;
 }
+.titre:link{
+		margin:0px;
+
+	font-weight: bold;
+	font-size: 14px;
+	color:#47ab4c;
+}
+
+
 
 
 .auteur{
