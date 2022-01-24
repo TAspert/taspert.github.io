@@ -10,7 +10,7 @@
   <link rel="icon" href="logo.jpg">
   <!-- ligne pour icon -->
 
-  <title>Théo ASPERT - Outputs</title>
+  <title>Théo ASPERT - Publications</title>
 
   <!-- Bootstrap core CSS -->
   <link href="Main/bootstrap.css" rel="stylesheet">
@@ -34,7 +34,7 @@
 <body>
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand reduce_padding" href="index.html">
+    <a class="navbar-brand reduce_padding" href="/">
       <img src="logo2.png" class="img-fluid"
       onmouseover="this.src='logo1.png';" 
       onmouseout="this.src='logo2.png';"alt="Charvin Lab">
@@ -47,16 +47,16 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Research.html">Research</a>
+          <a class="nav-link" href="Research">Research</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="Outputs.html">Publications & Talks<span class="sr-only">(current)</span></a>
+          <a class="nav-link active" href="Publications">Publications & Talks<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Resources.html">Resources</a>
+          <a class="nav-link" href="Resources">Resources</a>
         </li>
       </ul>
     </div>
@@ -83,7 +83,7 @@
         <h5 class="font-weight-bold">2021</h5>
       </div>
       <div class="col-md-2">
-        <img src="Publications/41.png" class="mh100">
+        <img src="Publications_/41.png" class="mh100">
       </div>
       <div class="col-md-9 pl-3">
         <a class="titre" href="https://doi.org/10.7554/eLife.73186">Monitoring single-cell dynamics of entry into quiescence during an unperturbed lifecycle</a>
@@ -104,7 +104,7 @@
     <!-- Publi45 -->
     <div class="row my-4 justify-content-end">
       <div class="col-md-2">
-        <img src="Publications/45.png" class="mh100">
+        <img src="Publications_/45.png" class="mh100">
       </div>
 
       <div class="col-md-9 pl-3">
@@ -129,7 +129,7 @@
       <h5 class="font-weight-bold">2021</h5>
     </div>
     <div class="col-md-2">
-      <img src="Publications/44.PNG" class="mh100">
+      <img src="Publications_/44.PNG" class="mh100">
     </div>
 
     <div class="col-md-9 pl-3">
@@ -149,7 +149,7 @@
   <!-- Publi42 -->
   <div class="row my-4 justify-content-end">
     <div class="col-md-2">
-      <img src="Publications/43.jpg" class="mh100">
+      <img src="Publications_/43.jpg" class="mh100">
     </div>
 
     <div class="col-md-9 pl-3">
@@ -172,7 +172,7 @@
       <h5 class="font-weight-bold">2019</h5>
     </div>
     <div class="col-md-2">
-      <img src="Publications/selflearning.jpg" class="mh100">
+      <img src="Publications_/selflearning.jpg" class="mh100">
     </div>
 
     <div class="col-md-9 pl-3">
@@ -201,7 +201,7 @@
   <hr>
   <div class="row">
     <div class="col-md">
-      <a href="Publications/ASPERT_Theo_2021_ED414.pdf"><img src="Publications/thesis.png" class="maxheight200"></a>
+      <a href="Publications_/ASPERT_Theo_2021_ED414.pdf"><img src="Publications_/thesis.png" class="maxheight200"></a>
     </div>
   </div>
 

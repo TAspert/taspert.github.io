@@ -46,16 +46,16 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link active " href="/">Home <span class="sr-only">(current)</span> </a>
+          <a class="nav-link active " href="/">Home<span class="sr-only">(current)</span> </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Research.html">Research</a>
+          <a class="nav-link" href="Research">Research</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Outputs.html">Publications & Talks</a>
+          <a class="nav-link" href="Publications">Publications & Talks</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Resources.html">Resources</a>
+          <a class="nav-link" href="Resources">Resources</a>
         </li>
       </ul>
     </div>
@@ -80,18 +80,18 @@
         <div class="row">
           <div class="col-md-4">
             <img src="pic_me.jpg" alt="picture_of_me" class="rounded-circle img-fluid">
-            <p class="text-center"><a href="Resources.html"><i>Curriculum vitae</i></a></p>
+            <p class="text-center"><a href="Resources"><i>Curriculum vitae</i></a></p>
           </div>
 
           <div class="col-md-8">
             <h3 class="mx-auto align-left hrr">Hi,</h3>
             <p class="text-justify"></p>
             <p class="text-justify">My name is <strong>Théo ASPERT</strong>. I am a french engineer and scientist passionated about the biology of aging. I hold a PhD in biophysics and an engineering degree in instrumental physics for biology.</p> 
-              <p>I did my PhD in the <a href="https://charvin.igbmc.science/">lab of Gilles Charvin</a> where I developed several tools based on <strong>microfluidics</strong>, timelapse microscopy, image analysis and deep-learning (available in <a href="Resources.html">Resources</a>) to address fascinating questions about <strong>replicative aging</strong> and quiescence in budding yeast, from a <strong>quantitative and single-cell</strong> prospect</p>
+              <p>I did my PhD in the <a href="https://charvin.igbmc.science/">lab of Gilles Charvin</a> where I developed several tools based on <strong>microfluidics</strong>, timelapse microscopy, image analysis and deep-learning (available in <a href="Resources">Resources</a>) to address fascinating questions about <strong>replicative aging</strong> and quiescence in budding yeast, from a <strong>quantitative and single-cell</strong> prospect</p>
 
-              <p>I also worked on different side projects in collaboration with other labs, for which I mainly developed microfluidic tools (see <a href="Research.html">Research</a> and <a href="Outputs.html">Publications</a>).</p>
+              <p>I also worked on different side projects in collaboration with other labs, for which I mainly developed microfluidic tools (see <a href="Research">Research</a> and <a href="Publications">Publications</a>).</p>
               
-             <p>Reproducibility, and therefore, clear protocols, conditions and instructions, are a key point of today's and tomorrow's science. Hence, I also created this website in part to detail some of the <a href="Resources.html">tools I developed and used.</a></p>
+             <p>Reproducibility, and therefore, clear protocols, conditions and instructions, are a key point of today's and tomorrow's science. Hence, I also created this website in part to detail some of the <a href="Resources">tools I developed and used.</a></p>
           
             <p>I have a strong methodological background, especially in microfluidics, but the question that haunts me is: <i>"Why and how do we age?!"</i>. Therefore, <strong>I am looking for a post-doctoral or research engineer (or equivalent) position</strong> where I could put my expertise to work and help understand aging! </p>
           </div>

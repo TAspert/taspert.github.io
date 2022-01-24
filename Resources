@@ -30,7 +30,7 @@
 <body>
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand reduce_padding" href="index.html">
+    <a class="navbar-brand reduce_padding" href="/">
       <img src="logo2.png" class="img-fluid"
       onmouseover="this.src='logo1.png';" 
       onmouseout="this.src='logo2.png';"alt="Charvin Lab">
@@ -43,16 +43,16 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Research.html">Research</a>
+          <a class="nav-link" href="Research">Research</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="Outputs.html">Publications & Talks</a>
+          <a class="nav-link " href="Publications">Publications & Talks</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="Resources.html">Resources<span class="sr-only">(current)</span></a>
+          <a class="nav-link active" href="Resources">Resources<span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
@@ -74,13 +74,13 @@
       <div class="row mb-3 justify-content-between" >
         <div class="col-5">
           <a href="https://metafluidics.org/devices/replicative-aging-device-detecdiv/"><h6>Replicative aging of budding yeast</h6></a>
-          <a href="https://metafluidics.org/devices/replicative-aging-device-detecdiv/"><img src="Resources/largediv.PNG" class="rounded w-100"></a>
+          <a href="https://metafluidics.org/devices/replicative-aging-device-detecdiv/"><img src="Resources_/largediv.PNG" class="rounded w-100"></a>
           <p class="text-justify">Device to trap single budding yeast cells and track them throughout their replicative lifespan.</p>
         </div>
 
         <div class="col-5">
           <a href="https://metafluidics.org/devices/single-cell-mammal-microfluidic-device/"><h6>Single-cell isolation and observation for mammal cells</h6></a>
-          <a href="https://metafluidics.org/devices/single-cell-mammal-microfluidic-device/"><img src="Resources/mammal.png" class="rounded w-100"></a>
+          <a href="https://metafluidics.org/devices/single-cell-mammal-microfluidic-device/"><img src="Resources_/mammal.png" class="rounded w-100"></a>
           <p class="text-justify">Device to trap single mammal cells, submit them to drugs and perform timelapse movies. Was successfully used with mouse ES cell line derived from PKG12.1</p>
         </div>
       </div>
@@ -88,13 +88,13 @@
       <div class="row mb-3 justify-content-between" >
         <div class="col-5">
           <a href="https://metafluidics.org/devices/continuous-yeast-filtration/"><h6>Continuous filtration of cells</h6></a>
-          <a href="https://metafluidics.org/devices/continuous-yeast-filtration/"><img src="Resources/spirale.png" class="rounded w-100"></a>
+          <a href="https://metafluidics.org/devices/continuous-yeast-filtration/"><img src="Resources_/spirale.png" class="rounded w-100"></a>
           <p class="text-justify">Device to separate cells from the media in a continuous manner. Work with budding and fission yeast but can be adapted to work with cells of a different size.</p>
         </div>
 
         <div class="col-5">
           <a href="https://metafluidics.org/devices/c-elegans-trapping-device/"><h6><i>C. elegans</i> observation</h6></a>
-          <a href="https://metafluidics.org/devices/c-elegans-trapping-device/"><img src="Resources/sophie.png" class="rounded w-100"></a>
+          <a href="https://metafluidics.org/devices/c-elegans-trapping-device/"><img src="Resources_/sophie.png" class="rounded w-100"></a>
           <p class="text-justify">Device to immobilize <i>C. elegans</i> worms, submit them to drugs and perform timelapse movies.</p>
         </div>
       </div>
@@ -102,13 +102,13 @@
       <div class="row mb-3 justify-content-between" >
         <div class="col-5">
           <h6>In-chip harvestable cell culture</h6>
-          <img src="Resources/bah.png" onmouseover="this.src='Resources/bah_no.png'" onmouseout="this.src='Resources/bah.png';" class="rounded w-100">
+          <img src="Resources_/bah.png" onmouseover="this.src='Resources_/bah_no.png'" onmouseout="this.src='Resources_/bah.png';" class="rounded w-100">
           <p class="text-justify">One key aspect of microfluidics is that the environment is perfectly controlled, especially its dynamics. In budding yeast, but could work with any non-adherent cells that are not mechanically hyper-sensitive.</p>
         </div>        
 
         <div class="col-5">
           <a href="https://metafluidics.org/devices/clonal-aging-device/"><h6><i>S. pombe</i> and <i>S. cerevisiae</i> clonal aging</h6></a>
-          <a href="https://metafluidics.org/devices/clonal-aging-device/"><img src="Resources/Chip_pombe-01.png" class="rounded w-100"></a>
+          <a href="https://metafluidics.org/devices/clonal-aging-device/"><img src="Resources_/Chip_pombe-01.png" class="rounded w-100"></a>
           <p class="text-justify">Device to trap single fission yeast cells and track them throughout their divisions. Can also be used to study clonal replicative aging in budding yeast (telomerase-deficient cells), with the daughter frequently replacing the mother in the trap.</p>
         </div>
       </div>
@@ -116,7 +116,7 @@
       <div class="row mb-3 justify-content-center" >
         <div class="col-5">
           <a href="https://metafluidics.org/devices/particle-filter/"><h6>Particle filter</h6></a>
-          <a href="https://metafluidics.org/devices/particle-filter/"><img src="Resources/filter.PNG" class="rounded w-100"></a>
+          <a href="https://metafluidics.org/devices/particle-filter/"><img src="Resources_/filter.PNG" class="rounded w-100"></a>
           <p class="text-justify">Filter particles above a certain size by trapping them in PDMS microstructures. Typically used to filter dust or debris before a downstream critical microfluidic device.</p>
         </div>
       </div>
@@ -144,10 +144,10 @@
       <h6>DetecDiv</h6>
       <div class="row mb-3 justify-content-between" >
         <div class="col-md-2">
-          <a href="https://github.com/gcharvin/DetecDiv"><img src="Resources/detecDiv_logo.png" class="rounded w-100"></a>
+          <a href="https://github.com/gcharvin/DetecDiv"><img src="Resources_/detecDiv_logo.png" class="rounded w-100"></a>
         </div>
         <div class="col-md-10">
-          <img src="Resources/detecdivpipeline.PNG" class="rounded w-100">
+          <img src="Resources_/detecdivpipeline.PNG" class="rounded w-100">
         </div>
       </div>
       <div class="row" >
@@ -161,22 +161,22 @@
       <div class="row mb-3 justify-content-between" >
         <div class="col-md-5">
           <h6>Microfluidic heating device</h6>
-          <a href="https://github.com/TAspert/ITO_heating_device"><img src="Resources/heating.PNG" class="rounded w-100"></a>
+          <a href="https://github.com/TAspert/ITO_heating_device"><img src="Resources_/heating.PNG" class="rounded w-100"></a>
           <p class="text-justify">Versatile and cheap heating system to keep any PDMS device at a given temperature. Slow (equilibrium in ~5min), so not suited for quick heat shock, but perfect for cell culture.</p>
         </div>
 
         <div class="col-md-5">
           <h6>Micromanager scripts</h6>
-          <a href="https://github.com/TAspert/Micromanager_Scripts"><img src="Resources/micromanager.png" class="rounded w-100"></a>
+          <a href="https://github.com/TAspert/Micromanager_Scripts"><img src="Resources_/micromanager.png" class="rounded w-100"></a>
         </div>
       </div>
 
       <div class="row mb-3 justify-content-center" >
         <div class="col-md-5">
           <h6>3D printing designs</h6>
-          <img src="Resources/3Dp.jpg" class="rounded w-100"> 
+          <img src="Resources_/3Dp.jpg" class="rounded w-100"> 
           
-          <p class="text-justify">xxThingiverse page:</p> <a href='https://www.thingiverse.com/taspert/designs'> <img src="Resources/thingiverse.png" class="rounded h25"></a>
+          <p class="text-justify">xxThingiverse page:</p> <a href='https://www.thingiverse.com/taspert/designs'> <img src="Resources_/thingiverse.png" class="rounded h25"></a>
         </div>      
     </div>
 

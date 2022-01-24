@@ -34,7 +34,7 @@
 <body>
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand reduce_padding" href="index.html">
+    <a class="navbar-brand reduce_padding" href="/">
       <img src="logo2.png" class="img-fluid"
       onmouseover="this.src='logo1.png';" 
       onmouseout="this.src='logo2.png';"alt="Charvin Lab">
@@ -47,16 +47,16 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="Research.html">Research<span class="sr-only">(current)</span></a>
+          <a class="nav-link active" href="Research">Research<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="Outputs.html">Publications & Talks</a>
+          <a class="nav-link " href="Publications">Publications & Talks</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Resources.html">Resources</a>
+          <a class="nav-link" href="Resources">Resources</a>
         </li>
       </ul>
     </div>
@@ -78,14 +78,14 @@
       <div class="row mt-3 text-center">
         <div class="col-md-6 text-center">
           <a href=#projet3>
-            <img src="Research/16traps.PNG" class="h100">
+            <img src="Research_/16traps.PNG" class="h100">
             <p class="small">Development of microfluidic devices for single-cell analysis</p>
           </a>
         </div>
 
         <div class="col-md-6 text-center">
           <a href=#projet2>
-            <img src="Research/automated.PNG" class="h100">
+            <img src="Research_/automated.PNG" class="h100">
             <p class="small">Automated longitudinal analysis of single-cell dynamics</p>
           </a>
         </div>
@@ -94,12 +94,12 @@
       <div class="row mt-3 text-center">
         <div class="col-md-6 ">
           <a href=#projet1>
-            <img src="Research/aging-trapv2.png" class="h100 rounded">
+            <img src="Research_/aging-trapv2.png" class="h100 rounded">
             <p class="small">Dynamics and mechanism of entry into replicative aging in yeast</p>
           </a>
         </div>
         <div class="col-md-6 text-center">
-          <a href=#projet4><img src="Research/quiescence.png" class="h100 rounded">
+          <a href=#projet4><img src="Research_/quiescence.png" class="h100 rounded">
             <p class="small">Dynamics of response to starvation at the single-cell level</p>
           </a>
         </div>
@@ -108,7 +108,7 @@
       <div class="row mt-3 justify-content-center">
         <div class="col-md-6 text-center">
           <a href=#projet5>
-            <img src="Research/collabs-01.png" class="h100 rounded">
+            <img src="Research_/collabs-01.png" class="h100 rounded">
             <p class="small">Collaborative works</p>
           </a>
         </div>
@@ -133,9 +133,9 @@
           <h5> <span class="white">Development of microfluidic devices for single cell dynamics assays </span> </h5>
           <p class="text-justify"> My research greatly rely on the development of custom-made microfluidic devices to monitor the growth of individual cells over multi-generation or several days timescales. 
 
-            For that, we have set-up (mainly Gilles Charvin, Igor Kukhtevich and I) a clean room that allowed me to perform the standard SU8-based photolithography processes in order to generate microfluidic prototypes. <a href="Outputs.html">More details about my designs</a></p>
+            For that, we have set-up (mainly Gilles Charvin, Igor Kukhtevich and I) a clean room that allowed me to perform the standard SU8-based photolithography processes in order to generate microfluidic prototypes. <a href="Publications">More details about my designs</a></p>
             <div class="text-center">
-              <img src="Research/salle_blanche.jpg" class="maxheight300">
+              <img src="Research_/salle_blanche.jpg" class="maxheight300">
               <p class="small">Picture of the clean room we have set-up</p>
             </div>
           </div>
@@ -162,10 +162,10 @@
 
         <div class="row mt-3 justify-content-center">
           <div class="col-md text-center">
-            <p class="text-justify"> Therefore, we developped and trained deep-learning based networks along with a software, DetecDiv, to automate and parallelize the detection of cell divisions, the volume and the fluorescence of single cells. <a href="Resources.html#detecdiv">See more details</a>.</p>
+            <p class="text-justify"> Therefore, we developped and trained deep-learning based networks along with a software, DetecDiv, to automate and parallelize the detection of cell divisions, the volume and the fluorescence of single cells. <a href="Resources#detecdiv">See more details</a>.</p>
 
             <div class="text-center">
-              <img src="Research/longitu.PNG" class="img-fluid maxheight500">
+              <img src="Research_/longitu.PNG" class="img-fluid maxheight500">
               <p class="small">xx</p>
             </div>  
           </div>
@@ -192,20 +192,20 @@
         <a class="anchor" id="projet1"></a>
         <h5 class="green-bar">Dynamics and mechanism of entry into replicative senescence in yeast </h5>
         <div class="text-center">
-          <img src="Research/project1a.png" class="maxheight200 img-fluid">
+          <img src="Research_/project1a.png" class="maxheight200 img-fluid">
           <p class="small">A mother cell divides assymetrically a certain number of times before dying. It accumulates aging factors thoughout its lifespan but daughter cells are born rejuvenated and free of these factors.</p>
         </div>
         <p class="text-justify"> Budding yeast cells undergo a limited number of divisions before entering senescence and eventually dying, a phenomenon known as replicative aging. Over the last twenty years, classical genetic analyses have identified genes and pathways that regulate this process, yet a detailed understanding of the cascade of events driving the entry into senescence is largely missing.
           In this context, a few groups have pioneered the development of microfluidics-based techniques to trap individual mother cells and to monitor their successive divisions from birth to death under the microscope, in the past 10 years. Using this methodology, it has be shown that cells undergo an abrupt transition (referred to as the Senescence Entry Point, or SEP) to a slow division regime that precedes cell death.<a link="">[Ferhmann et al. 2013]</a></p>
           <div class="text-center">
-            <img src="Research/sep.png" class="maxheight500">
+            <img src="Research_/sep.png" class="maxheight500">
             <p class="small">Graphical display of cell trajectories after alignment from cell birth (left) or from Senescence Entry Point (right). Each horizontal line corresponds to a single mother cell, and each segment along the line indicates one cell cycle. The color-coding shows the duration of the cell cycle.</p>
           </div>
           <p class="text-justify">
             Following up on their observations, the Charvin group has recently shown that the SEP is mechanistically associated with the accumulation of extrachromosomal rDNA circles (ERCs), a long described hallmark of aging in yeast. <a link="">[Morlot et al. 2018]</a>.</p>
 
             <div class="text-center">
-              <img src="Research/project1d.png" class="img-fluid maxheight300">
+              <img src="Research_/project1d.png" class="img-fluid maxheight300">
               <p class="small">Schematic showing the three steps involved in ERC-dependent senescence (ERC excision, ERC self-replication, and post-SEP interval).</p>
             </div>
             <p class="text-justify"> Based on this, I am now trying to understand 1) what are the statistics of the first ERC excision..... and 2) how these ERC are toxic to the cell.</p>
@@ -221,7 +221,7 @@
               Our study overcomes these barriers by proposing a new methodology based on microfluidics that allows us to observe the metabolic transitions in individual cells from fermentation to stationary phase in real-time. This technique offers a combined approach that respects the temporality of medium changes dictated by population growth while allowing single-cell level observations. 
             </p>
             <div class="text-center">
-              <img src="Research/quiescence01.PNG" class="img-fluid maxheight500">
+              <img src="Research_/quiescence01.PNG" class="img-fluid maxheight500">
             </div>
             <p class="small">xxx</p>
 
@@ -264,7 +264,7 @@
 
 
             <div class="text-center">
-              <img src="Research/quiescence01.PNG" class="img-fluid maxheight500">
+              <img src="Research_/quiescence01.PNG" class="img-fluid maxheight500">
             </div>
             <p class="small">xxx</p>
 
