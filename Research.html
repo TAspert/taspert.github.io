@@ -50,6 +50,9 @@
           <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="Motivations">Motivations</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link active" href="Research">Research<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
@@ -76,28 +79,28 @@
       <hr>
 
       <div class="row mt-3 text-center">
-        <div class="col-md-6 text-center">
-          <a href=#projet3>
-            <img src="Research_/16traps.PNG" class="h100">
-            <p class="small">Development of microfluidic devices for single-cell analysis</p>
-          </a>
-        </div>
-
-        <div class="col-md-6 text-center">
-          <a href=#projet2>
-            <img src="Research_/automated.PNG" class="h100">
-            <p class="small">Automated longitudinal analysis of single-cell dynamics</p>
-          </a>
-        </div>
-      </div>
-
-      <div class="row mt-3 text-center">
         <div class="col-md-6 ">
           <a href=#projet1>
             <img src="Research_/aging-trapv2.png" class="h100 rounded">
             <p class="small">Dynamics and mechanism of entry into replicative aging in yeast</p>
           </a>
         </div>
+        <div class="col-md-6 text-center">
+          <a href=#projet3>
+            <img src="Research_/16traps.PNG" class="h100">
+            <p class="small">Development of microfluidic devices for single-cell analysis</p>
+          </a>
+        </div>        
+      </div>
+
+      <div class="row mt-3 text-center">
+        <div class="col-md-6 text-center">
+          <a href=#projet2>
+            <img src="Research_/automated.PNG" class="h100">
+            <p class="small">Automated longitudinal analysis of single-cell dynamics</p>
+          </a>
+        </div>
+
         <div class="col-md-6 text-center">
           <a href=#projet4><img src="Research_/quiescence.png" class="h100 rounded">
             <p class="small">Dynamics of response to starvation at the single-cell level</p>
@@ -107,7 +110,7 @@
 
       <div class="row mt-3 justify-content-center">
         <div class="col-md-6 text-center">
-          <a href=#projet5>
+          <a href=#collabs>
             <img src="Research_/collabs-01.png" class="h100 rounded">
             <p class="small">Collaborative works</p>
           </a>
@@ -126,193 +129,208 @@
         </div>
       </div>
 
-      <!-- PROJECT3 -->
-      <div class="row">
+
+
+
+
+      <!-- PROJECT1 -->
+      <div class="row mt-3">
         <div class="col-md">
-          <a class="anchor" id="projet3"></a>
-          <h5> <span class="white">Development of microfluidic devices for single cell dynamics assays </span> </h5>
-          <p class="text-justify"> My research greatly rely on the development of custom-made microfluidic devices to monitor the growth of individual cells over multi-generation or several days timescales. 
+          <a class="anchor" id="projet1"></a>
+          <h5 class="green-bar">Dynamics of replicative aging at the single-cell level</h5>
 
-            For that, we have set-up (mainly Gilles Charvin, Igor Kukhtevich and I) a clean room that allowed me to perform the standard SU8-based photolithography processes in order to generate microfluidic prototypes. <a href="Publications">More details about my designs</a></p>
-            <div class="text-center">
-              <img src="Research_/salle_blanche.jpg" class="maxheight300">
-              <p class="small">Picture of the clean room we have set-up</p>
+          <div class="row">
+            <div class="col-md">
+              <p class="text-justify">Aging can be defined in two (overlapping) ways: an increase in mortality, or a decrease in fitness and biological functions, with age. Studying how cells age is fundamental to grasp the complexity of organismal aging. In this sense, budding yeast is a powerful model organism to study aging, since it divides and die in about 2 days during which its probability to die increases, and many physiological processes (division, nuclear and mitochondrial homeostasis, proteostasis, ...) are negatively affected.</p>
             </div>
           </div>
-        </div>
 
-
-        <!-- PROJECT2 -->
-        <div class="row mt-3">
-          <div class="col-md">
-            <a class="anchor" id="projet2">            
-            </a>
-            <h5 class="green-bar">Automated longitudinal analysis of single-cell dynamics
-            </h5>
-            <p class="text-justify"> A typical microfluidics timelapse experiment allows to monitor 400 000 cell divisions. The manual analysis of this extensive quantity of data is tedious and time-consuming.
-            </p>
-          </div>
-        </div>
-
-        <div class="row mt-3 justify-content-center">
-          <div class="col-md-12 text-center">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dsymuAUp_A0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-          </div>
-        </div>
-
-        <div class="row mt-3 justify-content-center">
-          <div class="col-md text-center">
-            <p class="text-justify"> Therefore, we developped and trained deep-learning based networks along with a software, DetecDiv, to automate and parallelize the detection of cell divisions, the volume and the fluorescence of single cells. <a href="Resources#detecdiv">See more details</a>.</p>
-
-            <div class="text-center">
-              <img src="Research_/longitu.PNG" class="img-fluid maxheight500">
-              <p class="small">xx</p>
-            </div>  
-          </div>
-        </div>           
-
-        <div class="row mt-3 justify-content-center">
-          <div class="col-md-12 text-center">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yvD_C8byeOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-
-        <div class="row mt-1 justify-content-center">
-          <div class="col-md-6">
-            <p> Twitter thread: 
-            </p>
-            <blockquote class="twitter-tweet" data-lang="en" data-theme="light"><p lang="en" dir="ltr">Tired of counting cell divisions? Bored of manually detecting a specific event from your movies? Don&#39;t want to spend half your PhD clicking on cells 🙃? <br>I spent half of mine for you: 👇🧵<a href="https://t.co/J9D4WyBTpn">https://t.co/J9D4WyBTpn</a> <a href="https://t.co/WpPKRN0DMp">pic.twitter.com/WpPKRN0DMp</a></p>&mdash; Théo ASPERT (@TheoAspert) <a href="https://twitter.com/TheoAspert/status/1447396884457349120?ref_src=twsrc%5Etfw">October 11, 2021</a></blockquote>  
-          </div>
-        </div>
-
-
-    <!-- PROJECT1 -->
-    <div class="row mt-3">
-      <div class="col-md">
-        <a class="anchor" id="projet1"></a>
-        <h5 class="green-bar">Dynamics and mechanism of entry into replicative senescence in yeast </h5>
-        <div class="text-center">
-          <img src="Research_/project1a.png" class="maxheight200 img-fluid">
-          <p class="small">A mother cell divides assymetrically a certain number of times before dying. It accumulates aging factors thoughout its lifespan but daughter cells are born rejuvenated and free of these factors.</p>
-        </div>
-        <p class="text-justify"> Budding yeast cells undergo a limited number of divisions before entering senescence and eventually dying, a phenomenon known as replicative aging. Over the last twenty years, classical genetic analyses have identified genes and pathways that regulate this process, yet a detailed understanding of the cascade of events driving the entry into senescence is largely missing.
-          In this context, a few groups have pioneered the development of microfluidics-based techniques to trap individual mother cells and to monitor their successive divisions from birth to death under the microscope, in the past 10 years. Using this methodology, it has be shown that cells undergo an abrupt transition (referred to as the Senescence Entry Point, or SEP) to a slow division regime that precedes cell death.<a link="">[Ferhmann et al. 2013]</a></p>
           <div class="text-center">
-            <img src="Research_/sep.png" class="maxheight500">
-            <p class="small">Graphical display of cell trajectories after alignment from cell birth (left) or from Senescence Entry Point (right). Each horizontal line corresponds to a single mother cell, and each segment along the line indicates one cell cycle. The color-coding shows the duration of the cell cycle.</p>
+            <img src="Research_/replicative_aging.png" class="maxheight200 img-fluid">
+            <p class="small">A mother cell divides assymetrically a certain number of times before dying. It accumulates aging factors thoughout its lifespan, but daughter cells are born rejuvenated and free of these factors.</p>
           </div>
-          <p class="text-justify">
-            Following up on their observations, the Charvin group has recently shown that the SEP is mechanistically associated with the accumulation of extrachromosomal rDNA circles (ERCs), a long described hallmark of aging in yeast. <a link="">[Morlot et al. 2018]</a>.</p>
 
-            <div class="text-center">
-              <img src="Research_/project1d.png" class="img-fluid maxheight300">
-              <p class="small">Schematic showing the three steps involved in ERC-dependent senescence (ERC excision, ERC self-replication, and post-SEP interval).</p>
+          <div class="row mt-3">
+            <div class="col-md">
+              <p class="text-justify">From that, many hallmarks of aging have been described. How are they mechanistically associated? Which are causes of aging, which are consequences? Do they form defined pathways, or a network of events?</p>
             </div>
-            <p class="text-justify"> Based on this, I am now trying to understand 1) what are the statistics of the first ERC excision..... and 2) how these ERC are toxic to the cell.</p>
           </div>
-        </div>
 
-        <!-- PROJECT4 -->
-        <div class="row mt-3">
-          <div class="col-md">
-            <a class="anchor" id="projet4"></a>
-            <h5 class="green-bar">Dynamics of response to starvation</h5>
-            <p class="text-justify"> Quiescence is a highly conserved phenomenon of living organisms. This defense mechanism allows unicellulars to survive over long time scales under unfavorable conditions. However, the mechanisms allowing the transition between proliferative state and quiescence are still poorly understood, in part because they have not been studied under physiologically relevant conditions. In the case of microorganisms, indeed, this requires observing the cells under unperturbed conditions as they progressively modify their growth environment.  The second difficulty is that quiescence is systematically associated with a high degree of cellular heterogeneity, the emergence dynamics of which is unknown, making the analysis very complex.
-              Our study overcomes these barriers by proposing a new methodology based on microfluidics that allows us to observe the metabolic transitions in individual cells from fermentation to stationary phase in real-time. This technique offers a combined approach that respects the temporality of medium changes dictated by population growth while allowing single-cell level observations. 
-            </p>
-            <div class="text-center">
-              <img src="Research_/quiescence01.PNG" class="img-fluid maxheight500">
+          <div class="text-center">
+            <img src="Research_/aging_models.png" class="maxheight300 img-fluid">
+            <p class="small">Different models of aging. Each color represents a hallmark of aging</p>
+          </div>
+
+          <div class="row mt-3">
+            <div class="col-md">              
+              <p class="text-justify">Budding yeast, used with the state-of-the-art high-throughput microfluidic and image analysis technology, can help address the complexity of aging.</p>
             </div>
-            <p class="small">xxx</p>
-
-            <p> Indeed,  we  developed  an  integrated  microfluidic  device  based  on  continuous  separation  of  the  cells  from the media (~5.10^5 cells/μL) and subsequent perfusion of the filtrated media in an observation chamber containing isolated single-cells. With that, we were able to recapitulate the different phases of the lifecycle of a yeast culture (Fermentation, Diauxic Shift, Respiration and Stationnary Phase), but also to observe and quantify the heterogeinty in the population....cf absctract 
-            </p>
           </div>
-        </div>
 
-        <div class="row mt-1 justify-content-center">
-          <div class="col-md-6">
-            <p> Twitter thread: 
-            </p>
-            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Have you ever seen budding yeast cells going to bed after a hard day&#39;s work?<br>We have dev a method to track single cells from a culture throughout all its growth phases (fermentation (FP), diauxic shift (DS), respiration (RP) &amp; stationary phase (SP)):👇🧵<a href="https://t.co/MHZsFwwQpl">https://t.co/MHZsFwwQpl</a> <a href="https://t.co/EyNfzKb1rg">pic.twitter.com/EyNfzKb1rg</a></p>&mdash; Théo ASPERT (@TheoAspert) <a href="https://twitter.com/TheoAspert/status/1463136553895698435?ref_src=twsrc%5Etfw">November 23, 2021</a></blockquote>
+          <div class="text-center">
+            <img src="Research_/progressive.png" class="maxheight400 img-fluid">
+            <p class="small">Schematic showing how cell-cell heterogeneities can lead to misenterprete an averaged signal</p>
           </div>
-        </div>
 
-        <!-- collabs -->
-        <div class="row mt-3">
-          <div class="col-md">
-            <a class="anchor" id="projet5"></a>
-            <h5 class="green-bar">Collaborative projects</h5>
-            <p class="text-justify">Besides my own projects, I have also worked with many people across different labs, to develop new microfluidic solutions to tackle a technical challenge, or to perform experiments with my existing tools. Among them, people from the:
-            </p>
-
-            <p class="text-justify"><a class=" blacklink" href="https://bc.biol.ethz.ch/research/barral.html"></span>Barral lab</a>, to whom I transfered my microfluidic designs and protocols in order to perform replicative aging assays in budding yeast.</p>
-
-            <p class="text-justify"><a class=" blacklink" href="https://www.iqb.u-tokyo.ac.jp/en/lab/kobayashi/"></span>Kobayashi lab</a>, to whom I transfered my microfluidic designs and protocols in order to perform replicative aging assays in budding yeast.</p>
-
-            <p class="text-justify"><a class=" blacklink" href="https://www.babraham.ac.uk/our-research/epigenetics/jon-houseley"></span>Houseley lab</a>, xxx</p>
-
-            <p class="text-justify"><a class=" blacklink" href="https://www.knoplab.de"></span>Knop lab</a>, xxx</p>
-
-            <p class="text-justify"><a class=" blacklink" href="http://www.synthecell.org/"></span>Coudreuse lab</a>, xxx</p>
-
-            <p class="text-justify"><a class=" blacklink" href="https://www.igbmc.fr/equipes/biologie-structurale-des-machines-moleculaires"></span>Schmidt lab</a>, xxx</p>
-
-            <p class="text-justify"><a class=" blacklink" href="http://lbmce.ibpc.fr/fr/biologie-des-telomeres/"></span>Teixeira lab</a>, clonal aging and telomere attrition</p>
-
-
-
-
-            <div class="text-center">
-              <img src="Research_/quiescence01.PNG" class="img-fluid maxheight500">
+          <div class="row mt-3">
+            <div class="col-md">              
+              <p class="text-justify">Observing single cells longitudinally throughout their aging process is key to address the complexity of aging. State-of-the-art microfluidics and image analysis technologies enables such observations in a high-throughput, standardized and systematic manner.</p>
             </div>
-            <p class="small">xxx</p>
-
-            <p> x
-            </p>
           </div>
-        </div>  
-      </div>        
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer class="footer container-fluid">
-
-
-      <div class="row h-75 " > 
-        <div class="col-3 h-100">
-          <a href="http://www.igbmc.fr"><img src="logo_igbmc.png" class="img-fluid mx-auto float" alt="logo_igbmc"></a>
-        </div>
-        <div class="col-3 h-100">
-          <a href="http://www.unistra.fr"><img src="logo_unistra.png" class="img-fluid mx-auto float" alt="logo_unistra"></a>
-        </div>
-        <div class="col-3 h-100">
-          <a href="http://www.cnrs.fr"><img src="logo_cnrs.png" class="img-fluid mx-auto float" alt="logo_cnrs"></a>
-        </div>
-        <div class="col-3 h-100">
-          <a href="http://www.inserm.fr"><img src="logo_inserm.png" class="img-fluid mx-auto float" alt="logo_inserm"></a>
-        </div>
-      </div>
 
 
 
+          <!-- PROJECT3 -->
+          <div class="row">
+            <div class="col-md">
+              <a class="anchor" id="projet3"></a>
+              <h5 class="green-bar">Development of microfluidic devices for single cell dynamics assays</h5>
+              <p class="text-justify">My research greatly rely on the development of custom-made microfluidic devices to monitor the growth of individual cells over multi-generation or several days timescales. 
+
+                For that, we have set-up (with <a href="https://charvin.igbmc.science/">Gilles Charvin</a> and <a href="https://scholar.google.com/citations?user=qtDmNuAAAAAJ&hl=com">Igor Kukhtevich</a>) a clean room that allowed me to perform the standard SU8-based photolithography processes in order to generate microfluidic prototypes (More details about my designs <a href="Resources">here</a>).</p>
+                <div class="text-center">
+                  <img src="Research_/salle_blanche.jpg" class="maxheight300">
+                  <p class="small">Picture of the clean room</p>
+                </div>
+
+                <p>In the context of replicative aging, microfluidics is becoming the gold standard method since 2012, since it allows efficient and automated separation of aging mother cells from their rejuvenated daughter cells. In this sense, I have developped my own device to observe more than 30 000 cells per experiment.</p>
+                <div class="row justify-content-center">
+                  <div class="col-md text-center">
+                    <a href="https://doi.org/10.1101/2021.10.05.463175"><img src="Resources_/largediv.PNG" class="rounded maxheight300"></a>
+                    <p class="small">Device to trap single budding yeast cells and track them throughout their replicative lifespan. <a href="Resources">(More info)</a> <a href="https://doi.org/10.1101/2021.10.05.463175">(Publication)</a></p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
 
 
-      <hr>
-      <div class="row h-25 justify-content-center"> 
-        <div class="col-4 h-100">
-          <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" class="float-right img-fluid" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-        </div>
-        <div class="col-6 h-100">
-          <p class="footer-text ">
-            Théo ASPERT (2022). Prefered contact:  <a class="text-dark font-weight-bold">theo.aspert@gmail.com</a>
-          </p>
-        </div>
-      </div>
-    </footer>
-    <!-- END OF FOOTER -->
+            <!-- PROJECT2 -->
+            <div class="row mt-3">
+              <div class="col-md">
+                <a class="anchor" id="projet2">            
+                </a>
+                <h5 class="green-bar">Automated analysis pipeline for tracking of single-cell dynamics during aging
+                </h5>
+                <p class="text-justify">With the microfluidics and imaging system I developped, a typical timelapse experiment allows to monitor 30 000 cells. The manual analysis of this extensive quantity of data is tedious and time-consuming.
+                </p>
+              </div>
+            </div>
+
+            <div class="row mt-3 justify-content-center">
+              <div class="col-md-12 text-center ">
+                <iframe width="600" height="600" src="https://www.youtube-nocookie.com/embed/dsymuAUp_A0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class=></iframe> 
+                <p class="small">Typical timelapse of a field of view of a replicative aging experiment</p>
+              </div>
+            </div>
+
+            <div class="row mt-3 justify-content-center">
+              <div class="col-md text-center">
+                <p class="text-justify"> Therefore, we developped (with <a href="https://charvin.igbmc.science/">Gilles Charvin</a>) and trained deep-learning based networks, embedded in a software, <a href="https://doi.org/10.1101/2021.10.05.463175">DetecDiv</a>, to automate and parallelize the detection of cell divisions, the volume and the fluorescence of single cells. <a href="Resources#detecdiv">See more details</a>.</p>
+
+                <div class="text-center">
+                  <img src="Research_/longitu.PNG" class="img-fluid maxheight500">
+                  <p class="small">Example of a deep-learning analysis pipeline to detect cell divisions from timelapse images.</p>
+                </div>  
+              </div>
+            </div>           
+
+            <div class="row mt-3 justify-content-center">
+              <div class="col-md-6 my-auto">
+                <iframe width="560" height="500" src="https://www.youtube-nocookie.com/embed/yvD_C8byeOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="small text-center">Example of an automated detection of cell divisions, cell contour and nucleus contour using DetecDiv</p>
+              </div>
+
+              <div class="col-md-6">
+                <blockquote class="twitter-tweet" data-lang="en" data-theme="light"><p lang="en" dir="ltr">Tired of counting cell divisions? Bored of manually detecting a specific event from your movies? Don&#39;t want to spend half your PhD clicking on cells 🙃? <br>I spent half of mine for you: 👇🧵<a href="https://t.co/J9D4WyBTpn">https://t.co/J9D4WyBTpn</a> <a href="https://t.co/WpPKRN0DMp">pic.twitter.com/WpPKRN0DMp</a></p>&mdash; Théo ASPERT (@TheoAspert) <a href="https://twitter.com/TheoAspert/status/1447396884457349120?ref_src=twsrc%5Etfw">October 11, 2021</a></blockquote>  
+              </div>
+            </div>        
+
+            
+
+            <!-- PROJECT4 -->
+            <div class="row mt-3">
+              <div class="col-md">
+                <a class="anchor" id="projet4"></a>
+                <h5 class="green-bar">Dynamics of entry into quiescence</h5>
+                <p class="text-justify">Besides aging and senescence, I also got interested into how cells react to an exhaustion of nutrients. One type of response is the entry into a dormant state, namely <i>quiescence</i>, in which the cell can survive over long time scales under unfavorable conditions. Quiescence is a highly conserved phenomenon of living organisms, but how cells enter this state remains poorly understood, in part because they have not been studied under physiologically relevant conditions. In the case of microorganisms, this requires observing the cells under unperturbed conditions as they progressively modify their growth environment by exhausting the nutrient. The second difficulty is that quiescence is systematically associated with a high degree of cellular heterogeneity, making bulk analysis risky (just like with aging).</p>
+
+                <p>To overcome these technical barriers, I developped (with Basile Jacquel) a new methodology based on microfluidics to observe the metabolic transitions in individual cells from fermentation to stationary phase in real-time. This technique offers a combined approach that respects the temporality of medium changes dictated by population growth while allowing single-cell level information.
+                  <div class="text-center">
+                    <img src="Research_/quiescence01.PNG" class="img-fluid maxheight500">                    
+                    <p class="small">Schematics of the microfluidic system used to perfuse cell-free media into an observation chamber, in a continuous manner</p>
+                  </div>
+
+
+                  <p> Indeed,  we  developed  an  integrated  microfluidic  device  based  on  continuous  separation  of  the  cells  from the media (~5.10<sup>8</sup> cells/mL) and subsequent perfusion of the filtrated media into an observation chamber containing isolated single-cells. With that, we were able to recapitulate the different phases of the lifecycle of a yeast culture (Fermentation, Diauxic Shift, Respiration and Stationnary Phase), but also to observe and quantify the heterogeinty in the population.
+                  </p>
+                </div>
+              </div>
+
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <p class="text-center"> Twitter thread:</p>
+                  
+                  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Have you ever seen budding yeast cells going to bed after a hard day&#39;s work?<br>We have dev a method to track single cells from a culture throughout all its growth phases (fermentation (FP), diauxic shift (DS), respiration (RP) &amp; stationary phase (SP)):👇🧵<a href="https://t.co/MHZsFwwQpl">https://t.co/MHZsFwwQpl</a> <a href="https://t.co/EyNfzKb1rg">pic.twitter.com/EyNfzKb1rg</a></p>&mdash; Théo ASPERT (@TheoAspert) <a href="https://twitter.com/TheoAspert/status/1463136553895698435?ref_src=twsrc%5Etfw">November 23, 2021</a></blockquote>
+                </div>
+              </div>
+
+              <!-- collabs -->
+              <div class="row mt-3">
+                <div class="col-md">
+                  <a class="anchor" id="collabs"></a>
+                  <h5 class="green-bar">Collaborative projects</h5>
+                  <p class="text-justify">Besides my own projects, I have also worked with many people across different labs, to develop new microfluidic solutions to tackle a technical challenge, or to perform experiments with my existing tools. Among them, people from the:
+                  </p>
+
+                  <p class="text-justify"><a class=" blacklink" href="https://bc.biol.ethz.ch/research/barral.html"></span>Barral lab</a>, to whom I transfered my microfluidic designs and protocols in order to perform replicative aging assays in budding yeast.</p>
+
+                  <p class="text-justify"><a class=" blacklink" href="https://www.iqb.u-tokyo.ac.jp/en/lab/kobayashi/"></span>Kobayashi lab</a>, to whom I transfered my microfluidic designs and protocols in order to perform replicative aging assays in budding yeast.</p>
+
+                  <p class="text-justify"><a class=" blacklink" href="https://www.babraham.ac.uk/our-research/epigenetics/jon-houseley"></span>Houseley lab</a>, xxx</p>
+
+                  <p class="text-justify"><a class=" blacklink" href="https://www.knoplab.de"></span>Knop lab</a>, with whom I developped a microfluidic device to focus cells in 3 dimensions, to reproduce a cytometer in chip.</p>
+
+                  <p class="text-justify"><a class=" blacklink" href="http://www.synthecell.org/"></span>Coudreuse lab</a>, to whom I developped a microfluidic device and a analysis pipeline to track single <i>S. pombe</i> cells in a high-throughput and automated manner.</p>
+
+                  <p class="text-justify"><a class=" blacklink" href="https://www.igbmc.fr/equipes/biologie-structurale-des-machines-moleculaires"></span>Schmidt lab</a>, with whom I developped a device for isolating and harvesting single axons, in order to correlate timelapse microscopy with cryo-EM.</p>
+
+                  <p class="text-justify"><a class=" blacklink" href="http://lbmce.ibpc.fr/fr/biologie-des-telomeres/"></span>Teixeira lab</a>, clonal aging and telomere attrition</p>
+
+                </div>
+              </div>  
+            </div>        
+
+          </main>
+
+
+          <!-- FOOTER -->
+          <footer class="footer">
+
+            <div class="row h-75 " > 
+              <div class="col-3 h-100">
+                <a href="http://www.igbmc.fr"><img src="logo_igbmc.png" class="img-fluid mx-auto float" alt="logo_igbmc"></a>
+              </div>
+              <div class="col-3 h-100">
+                <a href="http://www.unistra.fr"><img src="logo_unistra.png" class="img-fluid mx-auto float" alt="logo_unistra"></a>
+              </div>
+              <div class="col-3 h-100">
+                <a href="http://www.cnrs.fr"><img src="logo_cnrs.png" class="img-fluid mx-auto float" alt="logo_cnrs"></a>
+              </div>
+              <div class="col-3 h-100">
+                <a href="http://www.inserm.fr"><img src="logo_inserm.png" class="img-fluid mx-auto float" alt="logo_inserm"></a>
+              </div>
+            </div>
+
+            <hr>
+            <div class="row h-25 justify-content-center"> 
+              <div class="col-md-12 text-center h-100">
+                <p class="footer-text h-100"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licence Creative Commons" class="h-100 align-text-top" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> Théo ASPERT (2022). Prefered contact:  <a class="text-dark font-weight-bold">theo.aspert@gmail.com</a></p>
+              </div>
+            </div>
+
+          </footer>
+          <!-- END OF FOOTER -->
 <!-- Bootstrap core JavaScript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->

@@ -24,7 +24,7 @@ span.white{
 .green-bar:after{
 	content:""; 
 	display: block;
-	border-top: solid 2px #47ab4c;
+	border-top: solid 4px #47ab4c;
 	width: 100%;
 	margin-top: 5px;
 	position: relative;
