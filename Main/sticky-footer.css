@@ -16,7 +16,7 @@ position: absolute;
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 80px;
-  padding-top: 0.25rem;
+  padding-top: 0rem;
   padding-bottom: 0rem;
 
   background-color: #f5f5f5;
@@ -30,9 +30,11 @@ height:100%;
 }
 
 .footer-text{
-  font-size:0.8rem;
+  font-size:0.7rem;
   padding: 0rem;
   margin: 0rem;
+    background-color: #f5f5f5;
+
 }
 
 hr{
