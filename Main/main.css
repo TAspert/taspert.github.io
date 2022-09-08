@@ -15,8 +15,8 @@ a.anchor {
     content: '- Show Less';
 }
 
-.twitter-timeline-overflow{
-	overflow-y: scroll;
+.twitter-timeline-over{
+	overflow-y: scroll!important;
 }
 
 
