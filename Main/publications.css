@@ -12,7 +12,7 @@ max-height: 500px;
 overflow-y:scroll;
 }
 
-.btn-xsm{padding:.15rem .15rem;font-size:.7rem;line-height:1;border-radius:.2rem; background-color:#47ab4c;border-color:#47ab4c;color:#000000;}
+.btn-xsm{padding:.15rem .15rem;font-size:.7rem;line-height:1;border-radius:.2rem; background-color:#2E9A00;border-color:#2E9A00;color:#000000;}
 
 /*to pisition the line at the middle, make the parent "relative" and the child "absolute (the pseudo element :after is consider as a child I guess)*/
 .titre{
@@ -20,7 +20,7 @@ overflow-y:scroll;
 
 	font-weight: bold;
 	font-size: 14px;
-	color:#47ab4c;
+	color:#2E9A00;
 }
 
 
@@ -60,7 +60,7 @@ overflow-y:scroll;
 
 .hrr{
 	display: block;
-	border-top: dashed 2px #47ab4c;
+	border-top: dashed 2px #36b300;
 	width: 100%;
 	height:1px;
 	z-index: -1;}

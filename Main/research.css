@@ -13,7 +13,7 @@ overflow-y:scroll;
 }
 
 
-.btn-xsm{padding:.15rem .15rem;font-size:.7rem;line-height:1;border-radius:.2rem; background-color:#47ab4c;border-color:#47ab4c;color:#000000;}
+.btn-xsm{padding:.15rem .15rem;font-size:.7rem;line-height:1;border-radius:.2rem; background-color:#2E9A00;border-color:#2E9A00;color:#000000;}
 
 /*to pisition the line at the middle, make the parent "relative" and the child "absolute (the pseudo element :after is consider as a child I guess)*/
 span.white{
@@ -24,7 +24,7 @@ span.white{
 .green-bar:after{
 	content:""; 
 	display: block;
-	border-top: solid 4px #47ab4c;
+	border-top: solid 4px #2E9A00;
 	width: 100%;
 	margin-top: 5px;
 	position: relative;
