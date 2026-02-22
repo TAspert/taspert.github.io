@@ -11,6 +11,9 @@
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
         .protocol-section { scroll-margin-top: 100px; }
         pre { white-space: pre-wrap; word-wrap: break-word; }
+        
+        /* Transition utility for smooth highlight switching */
+        .nav-link { transition: all 0.2s ease-in-out; }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900">
@@ -39,17 +42,17 @@
         
         <!-- Sidebar Navigation -->
         <aside class="md:w-64 flex-shrink-0">
-            <nav class="sticky top-28 space-y-1">
+            <nav class="sticky top-28 space-y-1" id="toc-nav">
                 <p class="text-xs font-bold text-slate-400 uppercase px-3 mb-2">Navigation</p>
-                <a href="#inventory" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md transition-all">Inventory</a>
-                <a href="#mold-fab" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md transition-all">Mold Fabrication</a>
-                <a href="#chip-fab" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md transition-all">PDMS Chip Fabrication</a>
-                <a href="#assembly" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md transition-all">Glass Assembly</a>
-                <a href="#surface" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md transition-all">Surface Treatment</a>
-                <a href="#lumen" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md transition-all">Lumen Formation</a>
-                <a href="#cell-work" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md transition-all">Cell Work & Seeding</a>
-                <a href="#daily" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md transition-all">Daily Processing</a>
-                <a href="#trouble" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md transition-all">Troubleshooting</a>
+                <a href="#inventory" class="nav-link block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md">Inventory</a>
+                <a href="#mold-fab" class="nav-link block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md">Mold Fabrication</a>
+                <a href="#chip-fab" class="nav-link block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md">PDMS Chip Fabrication</a>
+                <a href="#assembly" class="nav-link block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md">Glass Assembly</a>
+                <a href="#surface" class="nav-link block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md">Surface Treatment</a>
+                <a href="#lumen" class="nav-link block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md">Lumen Formation</a>
+                <a href="#cell-work" class="nav-link block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md">Cell Work & Seeding</a>
+                <a href="#daily" class="nav-link block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md">Daily Processing</a>
+                <a href="#trouble" class="nav-link block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-white hover:text-blue-600 rounded-md">Troubleshooting</a>
             </nav>
         </aside>
 
@@ -144,6 +147,12 @@
                         <li>Cure 30min+ at 60°C under mechanical load to avoid warping. Then cure for 24+ h at 60°C and under UV (365nm).</li>
                         <li>Make another quick IPA wash to remove potential chemicals formed at the surface during curing.</li>
                     </ol>
+
+                    <figure class="mt-8 mb-6">
+                        <img src="scheme_chip.png" alt="Schematic of the Chip" class="w-full max-w-2xl mx-auto rounded-xl shadow-sm border border-slate-200 bg-white" onerror="this.onerror=null; this.src='https://placehold.co/800x400/f8fafc/64748b?text=scheme_chip.png';">
+                        <figcaption class="text-center text-xs text-slate-500 mt-3 font-medium tracking-wide uppercase">Figure 1: Schematic of the mold and chip components</figcaption>
+                    </figure>
+
                     <div class="bg-blue-50 p-4 rounded-lg border border-blue-100 text-sm text-blue-800 mt-6">
                         <i class="fas fa-lightbulb mr-2 text-blue-500"></i><strong>Optional:</strong> Put the molds into a container (like a petri dish), and dispense 30µL of TMCS into it (not directly on the mold) to passivate the surface and allow more convenient PDMS unmolding.
                     </div>
@@ -452,5 +461,40 @@
         </div>
     </footer>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.protocol-section');
+            const navLinks = document.querySelectorAll('#toc-nav .nav-link');
+
+            const observerOptions = {
+                root: null,
+                // Adjust rootMargin so it triggers when the section reaches the upper portion of the viewport
+                rootMargin: '-100px 0px -60% 0px',
+                threshold: 0
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Remove active styling from all links
+                        navLinks.forEach(link => {
+                            link.classList.remove('bg-white', 'text-blue-600', 'shadow-sm', 'ring-1', 'ring-slate-200', 'font-semibold');
+                            link.classList.add('text-slate-700');
+                        });
+
+                        // Add active styling to the currently visible section
+                        const activeId = entry.target.id;
+                        const activeLink = document.querySelector(`#toc-nav a[href="#${activeId}"]`);
+                        if (activeLink) {
+                            activeLink.classList.remove('text-slate-700');
+                            activeLink.classList.add('bg-white', 'text-blue-600', 'shadow-sm', 'ring-1', 'ring-slate-200', 'font-semibold');
+                        }
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => observer.observe(section));
+        });
+    </script>
 </body>
 </html>
