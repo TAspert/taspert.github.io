@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-
-Sitemap: https://taspert.github.io/sitemap.xml
